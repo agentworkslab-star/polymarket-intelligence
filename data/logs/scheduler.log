@@ -1,0 +1,20 @@
+[2026-03-08 23:23:21] 🎯 Polymarket Scheduler - Starting...
+[2026-03-08 23:23:21] ⏱️  Interval: Every 1 minutes
+[2026-03-08 23:23:21] 📝 Log file: C:\Users\Upstock IT\.openclaw\workspace\03-ACTIVE-PROJECTS\polymarket-intelligence\data\logs\scheduler.log
+[2026-03-08 23:23:21] ✅ Scheduler started! Press Ctrl+C to stop
+[2026-03-08 23:23:21] 🔄 Running initial job...
+[2026-03-08 23:23:21] ============================================================
+[2026-03-08 23:23:21] ⏰ Scheduled Job Starting...
+[2026-03-08 23:23:21] 🚀 Starting scraper...
+[2026-03-08 23:23:23] ❌ Scraper failed: Traceback (most recent call last):
+  File "C:\Users\Upstock IT\.openclaw\workspace\03-ACTIVE-PROJECTS\polymarket-intelligence\tools\scraper.py", line 193, in <module>
+    main()
+  File "C:\Users\Upstock IT\.openclaw\workspace\03-ACTIVE-PROJECTS\polymarket-intelligence\tools\scraper.py", line 166, in main
+    print("\U0001f3af Polymarket Scraper - Starting...")
+  File "C:\Users\Upstock IT\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3af' in position 0: character maps to <undefined>
+
+[2026-03-08 23:23:23] ⏰ Job Complete
+[2026-03-08 23:23:23] ============================================================

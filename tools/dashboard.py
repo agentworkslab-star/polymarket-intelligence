@@ -19,7 +19,12 @@ st.set_page_config(
     page_title="Polymarket Intelligence",
     page_icon="🎯",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/agentworkslab-star/polymarket-intelligence',
+        'Report a bug': "https://github.com/agentworkslab-star/polymarket-intelligence/issues",
+        'About': "# Polymarket Intelligence Dashboard\nBuilt with Streamlit"
+    }
 )
 
 # Custom CSS
